@@ -1,0 +1,16 @@
+Salon de tatouage
+
+Pages 
+
+      -Accueil
+      -Présentation des services
+      -Contact (Google maps, horaires, fausses adresses, formulaire de contact, carte de visite)
+      -Pages d'images (galerie)
+      -Actualités (événements etc)
+
+1- Veilles (site)
+2- Figma
+Logo
+Git
+HTML/CSS/JS
+RWD (ResponsiveWebDesign)
