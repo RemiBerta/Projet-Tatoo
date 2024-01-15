@@ -1,4 +1,287 @@
+
+/* ALL */
 * {
     margin:0;
     padding: 0;
+    text-decoration: none;
+    
+}
+
+@font-face {
+    font-family: "Heartless";
+}
+
+
+
+.flex {
+    display: flex;
+}
+
+.row-limit-size {
+    width: 100%;
+    margin: 0 auto;
+} 
+
+/* Header */
+header {
+    background-image: url(../image/photo-tattoo6.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 280px ; 
+    background-size: cover;
+    background-color: #323232;
+}
+
+.logo-green img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;  
+    padding-bottom:25px; 
+
+}
+
+.main-menu {
+    display: none;
+}
+
+.main-menu, .burger{
+    background-color: #323232;
+
+}
+
+@media screen and (min-width: 900px){
+    .main-menu {
+        display: block;
+    }
+    .burger {
+        display: none ;
+    }
+}
+.burger > img {
+    background-color: #0DEA4B;
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.main-menu > ul > li > a {
+    color: #fff;
+    background-color: #0DEA4B ;
+    border: 2px solid #000 ;
+    font-family: "Heartless";
+    border-radius: 20px;
+    padding: 8px 30px;
+    margin-left: 50px;
+    margin-right: 35px;
+    font-size: 32px ;
+    box-shadow: 3px 5px 10px black;
+    
+}
+
+.main-menu > ul > li:hover > a {
+    background-color: #000;
+
+}
+
+.main-menu > ul {
+    flex-direction: row-reverse;
+    list-style-type: none;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+
+/* MAIN page accueil*/
+
+main {
+    padding-top: 150px;
+    background-color: #323232 ;
+    background-image: url(../image/Group21.svg);
+    background-repeat: unset;
+    background-size: round;
+    padding-bottom: 80px;
+    
+}
+
+.presentation p {
+    width: 50%;
+    background-color: #0DEA4B;
+    color: #3d3d3d;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding: 35px;
+}
+
+.presentation img {
+    width: 50%;
+}
+
+#accueil2 {
+    justify-content: center;
+    
+    
+}
+.projet {
+    width: 40%;
+    align-items: center;
+    flex-direction: column
+    
+}
+.projet h2 {
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.projet img {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.buttona2 {
+    margin-top: 250px;
+   
+
+}
+
+.buttona2  a {
+    text-decoration: none;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 3px 5px 10px black;
+    background-color: #0DEA4B;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #212121;
+}
+
+.buttona2:hover a {
+    color: #0DEA4B;
+    background-color: #212121;
+}
+
+/* MAIN page actu */
+
+.flashday {
+    background-color: #0DEA4B;
+    width: 35%;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.flashday h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+    padding-bottom: 35px;
+    text-align: center;
+
+}
+
+.flashday2 p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin-right: 200px;
+}
+
+.flashday2 img {
+    width: 400px;
+    height: 400px;
+} 
+
+
+.artistday {
+    background-color: #0DEA4B;
+    width: 40%;
+    padding: 40px;
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-left: 50%;
+}
+
+.artistday h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    -webkit-text-stroke: 2px black;
+    padding-bottom: 35px;
+    text-align: center;
+
+}
+
+.artistday2 {
+   flex-direction: row-reverse ;
+}
+
+.artistday2 p {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    margin-left: 200px;
+    text-align: right;
+    
+}
+
+.artistday2 img {
+    width: 400px;
+    height: 400px;
+    padding-top: 80px;
+}
+
+
+
+
+/* FOOTER */
+
+footer {
+    justify-content: space-around;
+    background-color: #0DEA4B;
+    padding-top: 30px;
+    padding-bottom: 20px ;
+
+    
+    
+}
+
+.contact-foot {
+    text-align: center;
+}
+
+.contact-foot > h2 {
+    font-family: "Heartless";
+    font-size: 35px;
+}
+
+.contact-foot ul {
+    list-style-type: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+
+.titre-foot img {
+    width: 250px;
+}
+
+.reseau-foot {
+    padding-left: 150px;
+}
+
+.reseau-foot h2  {
+    font-family: "Heartless";
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.reseau-foot img {
+    padding-right:  12px;
+    margin-left: 10px;
 }
