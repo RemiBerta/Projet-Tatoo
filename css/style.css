@@ -66,7 +66,8 @@ header {
 
 .main-menu > ul > li > a {
     color: #fff;
-    background-color: #0DEA4B ;
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);
     border: 2px solid #000 ;
     font-family: "Heartless";
     border-radius: 20px;
@@ -91,7 +92,7 @@ header {
     
 }
 
-/* MAIN page accueil*/
+/* MAIN page accueil */
 
 main {
     padding-top: 150px;
@@ -125,8 +126,8 @@ main {
 .projet {
     width: 40%;
     align-items: center;
-    flex-direction: column
-    
+    flex-direction: column;
+    box-shadow: 10px 3px 12px rgb(51, 51, 51);
 }
 .projet h2 {
     color: #fff;
@@ -167,11 +168,14 @@ main {
 /* MAIN page actu */
 
 .flashday {
-    background-color: #0DEA4B;
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);
     width: 35%;
     padding: 40px;
     margin-top: 100px;
     margin-left: 180px;
+    border-radius:5%;
+    box-shadow: 10px -3px 12px rgb(51, 51, 51);
 }
 
 .flashday h2 {
@@ -194,16 +198,21 @@ main {
 .flashday2 img {
     width: 400px;
     height: 400px;
+    border-radius:5%;
+    box-shadow: 10px 3px 12px rgb(51, 51, 51);
 } 
 
 
 .artistday {
-    background-color: #0DEA4B;
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);
     width: 40%;
     padding: 40px;
     margin-top: 100px;
     margin-left: 180px;
     margin-left: 50%;
+    border-radius:5%;
+    box-shadow: 10px 3px 12px rgb(51, 51, 51);
 }
 
 .artistday h2 {
@@ -218,6 +227,7 @@ main {
 
 .artistday2 {
    flex-direction: row-reverse ;
+   
 }
 
 .artistday2 p {
@@ -232,22 +242,150 @@ main {
 .artistday2 img {
     width: 400px;
     height: 400px;
-    padding-top: 80px;
+    margin-top: 80px;
+    border-radius:5%;
+    box-shadow: 10px 3px 12px rgb(51, 51, 51);
 }
 
+/* MAIN page galerie */
 
+.galerie {
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);
+    width: 40%;
+    padding: 40px;
+    margin: 0 auto ;
+    box-shadow: 10px 3px 12px rgb(51, 51, 51);
+    border-radius:8%;
 
+}
+
+.galerie img {
+    padding: 0 23%;
+    margin-bottom: 25px;
+}
+
+.galerie p {
+    padding: 0 23%;
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.grid-galerie {
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.grid-galerie img {
+    width: 100%;
+    height: 100%;  
+}
+
+.betweengrid  {
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 80px;
+}
+.gg3-5 {
+    grid-column: 1/3 ;
+    grid-row: 1;
+}
+.gg4 {
+    grid-column: 1 ;
+    grid-row: 2;
+}
+
+.gg5 {
+    grid-column:  3;
+    grid-row: 1;
+}
+
+.gg6 {
+    grid-column: 2/ 4;
+    grid-row:2;
+}
+/* MAIN page service */
+
+.text-service, .style-tattoo, .soin-tattoo  {
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);
+
+}
+
+.text-service {
+    width: 60% ;
+    margin: 0 auto;
+    border-radius: 5%;
+
+}
+.text-service img {   
+    padding: 15px 0 15px 33%;
+}
+
+.text-service p {
+    text-align: center;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding: 15px;
+}
+
+.style-tattoo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 60% ;
+    border-radius: 5%;
+
+}
+
+.style-tattoo img {
+    padding: 15px 0 ;
+    width: 300px;
+}
+
+.style-tattoo p {
+    text-align: left;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding: 15px;
+}
+
+.soin-tattoo {
+    width: 60% ;
+    border-radius: 5%;
+    margin-left: 40%;
+}
+
+.soin-tattoo img {
+    padding: 15px 0 ;
+    width: 300px; 
+    margin-left: 65% ;  
+}
+
+.soin-tattoo p, .soin-tattoo li {
+    text-align: right;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    padding: 10px;
+
+}
 
 /* FOOTER */
 
 footer {
     justify-content: space-around;
-    background-color: #0DEA4B;
+    background: rgb(54,87,63);
+    background: linear-gradient(0deg, rgba(54,87,63,1) 0%, rgba(24,213,77,1) 44%, rgba(13,234,75,1) 100%);    
     padding-top: 30px;
-    padding-bottom: 20px ;
-
-    
-    
+    padding-bottom: 20px ;   
 }
 
 .contact-foot {
@@ -285,3 +423,6 @@ footer {
     padding-right:  12px;
     margin-left: 10px;
 }
+
+
+
