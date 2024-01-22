@@ -51,7 +51,8 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-left: -20px;
 
 }
 
@@ -79,6 +80,8 @@ header {
         list-style-type: none;
         padding-top: 40px;
         padding-bottom: 50px;
+        margin-top: 50px;
+        
     }
 
     .logo-green img {
@@ -87,6 +90,9 @@ header {
         margin: 0 auto;
         padding-bottom: 25px;
 
+    }
+    .main-menu>ul>li>a {
+        padding: 8px 30px;
     }
 }
 
@@ -118,7 +124,7 @@ header {
     border: 2px solid #000;
     font-family: "Heartless";
     border-radius: 20px;
-    padding: 8px 30px;
+    padding: 4px 15px;
     margin-left: 50px;
     margin-right: 35px;
     font-size: 32px;
@@ -287,6 +293,7 @@ main {
     margin-left: 10%;
     border-radius: 5%;
     box-shadow: 10px -3px 12px rgb(51, 51, 51);
+    
 }
 
 .flashday h2 {
@@ -297,6 +304,10 @@ main {
     padding-bottom: 35px;
     text-align: center;
 
+}
+
+.flashday2 {
+    display: block;
 }
 
 .flashday2 p {
@@ -311,7 +322,8 @@ main {
     height: 150px;
     border-radius: 5%;
     box-shadow: 10px 3px 12px rgb(51, 51, 51);
-    display: none;
+
+    
 }
 
 
@@ -337,8 +349,7 @@ main {
 }
 
 .artistday2 {
-    flex-direction: row-reverse;
-
+    display: block;
 }
 
 .artistday2 p {
@@ -356,7 +367,7 @@ main {
     margin-top: 80px;
     border-radius: 5%;
     box-shadow: 10px 3px 12px rgb(51, 51, 51);
-    display: none;
+    
 }
 
 @media screen and (min-width: 800px) {
@@ -374,7 +385,9 @@ main {
         text-align: center;
 
     }
-
+    .flashday2 {
+        display: flex;
+    }
     .flashday2 p {
         font-size: 30px;
         margin-right: 5rem;
@@ -407,6 +420,7 @@ main {
     }
 
     .artistday2 {
+        display: flex;
         flex-direction: row-reverse;
 
     }
@@ -542,7 +556,7 @@ main {
 }
 
 .text-service img {
-    padding: 25px 1% 25px 20%;
+    padding: 25px 1% 25px 10%;
     width: 180px;
 }
 
@@ -559,6 +573,7 @@ main {
     margin-bottom: 80px;
     width: 60%;
     border-radius: 20px;
+    
 
 }
 
@@ -594,6 +609,7 @@ main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     padding: 10px;
+    list-style-type:none;
 
 }
 
